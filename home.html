@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+ <meta charset="UTF-8">
+ <title>Hot Restaurant</title>
+ <!-- Latest compiled and minified CSS & JS -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://code.jquery.com/jquery.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+​
+</head>
+​
+<body>
+​
+ <div class="container">
+  <div class="container">
+   <div class="jumbotron text-center">
+    <h1 class="display-4">Hot Restaurant</h1>
+    <p class="lead">Book your seat before they all are gone!</p>
+    <hr class="my-4">
+    <a class="btn btn-danger btn-lg" href="/reserve" role="button"><i class="fas fa-credit-card"></i> Make Reservation</a>
+    <a class="btn btn-light btn-lg" href="/" role="button"><i class="fas fa-home"></i></a>
+   </div>
+  <div class="row">
+​
+   <div class="col-12">
+    <div class="card">
+     <div class="card-header">
+      <h3><strong>Current Reservations</strong></h3>
+     </div>
+     <div class="card-body">
+      <h2 id="name">Table #1</h2>
+      <hr class="my-4">
+      <div id="stats">
+       <h3>ID:<span id="idInput"></span></h3>
+       <h3>Name:<span id="nameInput"></span></h3>
+       <h3>Email:<span id="emailInput"></span></h3>
+       <h3>Phone:<span id="phoneInput"></span></h3>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</body>
+​
+</html>
